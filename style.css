@@ -1,0 +1,60 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.heading h1{
+    padding: 1.23rem;
+    border: 2px solid green;
+    border-radius: 2rem;
+    text-decoration: underline;
+    color: green;
+    transition: all 0.4s 0.1s;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+}
+
+.heading h1:hover{
+    color: aliceblue;
+    background-color: green;
+    transform: scale(1.08);
+}
+
+.calc-body , .result-section  , .add-btn{
+    display: flex;
+    flex-direction:column;
+    /* justify-content: center ; */
+    margin-inline: auto;
+    width: 75%;
+    flex-wrap: wrap;
+
+}
+
+section{
+    gap: 1rem;
+}
+
+.add{
+    color: aliceblue;
+    background-color: slategray;
+}
+
+.add:hover{
+    background-color: rgb(6, 71, 128);
+    color: rgb(206, 206, 243);
+}
+
+.copy-right{
+    display: grid;
+}
+
+.copy-right .first-footer-column{
+    margin-top: 2rem;
+    margin-inline:auto ;
+}
+
+#super{
+    vertical-align:super;
+    font-size: smaller;
+}
